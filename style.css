@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Paytone+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Navbar section */
+nav{
+    background: white;
+}
+nav .navbar-brand{
+    font-family: "Exo Black";
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+nav .navbar-collapse{
+    font-family: "Expressway";
+    padding: 10px;
+}
+
+/* Main Section */
+
+main{
+    text-align: center;
+    background: linear-gradient(45deg,#fff,#d9d9d9);
+
+}
+main img{
+    width: 50%;
+    height: auto;
+}
+
+main p{
+    font-family: "Tahoma";
+}
+
+main p span{
+    color: #0000ff;
+}
+
+main h1{
+    font-family: "Exo Black";
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#firstParap{
+    margin-top: 35px;
+    letter-spacing: 8px;
+    font-size: 10px;
+}
+
+#ndParap{
+    font-size: 12px;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+/* Our Product Section */
+#firstParap:nth-child(1){
+    font-size: 8px;
+}
+.moreProduct p span{
+    color: #0000ff;
+}
+.moreProduct{
+    text-align: center;
+}
+.moreProduct h1{
+    font-family: "Exo";
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+#trdParap{
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.moreProduct a{
+    font-size: 12px;
+}
+
+.moreProduct img{
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+}
+/* About Us */
+.aboutUs h2::after,.feedBackSection h2::after{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 3px;
+    margin: 15px auto;
+    background-color: #0b014d;
+}
+.aboutUs .imgSize{
+    background-image: url("img/shoes-1245920_960_720.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    opacity: 0.9;
+}
+.aboutUsIsi{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+    top: -50px;
+    padding: 20px;
+    box-shadow: 2px 2px 1px rgb(172, 172, 172);
+    border-radius: 0px 3px 3px 3px;
+}
+.aboutUsIsi .ndAbout{
+    margin: auto;
+}
+.aboutUsIsi img{
+    width: 50%;
+}
+.aboutUsIsi h4{
+    font-family: "Exo Black";
+    font-size: 20px;
+    margin-top: 20px;
+}
+.aboutUsIsi p{
+    font-family: "Expressway";
+    font-size: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* Parallax Section */
+.parallaxSection{
+    background-image: url("img/TEN_0324.JPG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+
+.coverEffect{
+    padding: 60px;
+    height: 100%;
+    background-image:linear-gradient(45deg,rgba(3, 3, 3, 0.3),rgba(59, 59, 59, 0.3));
+    opacity: 0.9;
+}
+.parallaxSection h3{
+    font-family: "Exo Black";
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.parallaxSection p{
+    font-family: "Exo Medium";
+    letter-spacing: 5px;
+    font-size: 8px;
+}
+
+/* Costumer's Feedback Section */
+.feedBackSection h2{
+    font-family: "Tahoma";
+    font-size: 20px;
+    text-align: center;
+}
+
+.feedBackSection .sideImage img{
+    width: 70%;
+    height: auto;
+}
+.feedBackSection .sideImage p{
+    width: 100%;
+    font-size: 8px;
+}
+
+.feedBackSection .centerImage img{
+    width: 100%;
+    height: auto;
+}
+
+.feedBackSection .centerImage p{
+    width: 100%;
+    font-size: 9px;
+}
+
+/* Footer Section */
+footer{
+    color: white;
+    background-image: linear-gradient(45deg,#1e1d25,#121215);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer h5{
+    font-family: "Exo Black";
+}
+footer ul li{
+    list-style-type: none;
+    font-family: "Exo Thin";
+}
+footer hr{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+.companyFooter h6{
+    font-size: 25px;
+    font-weight: 700;
+}
+.companyFooter p{
+    letter-spacing: 2px;
+}
+.companyFooter img{
+    width: 60px;
+    height: auto;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .feedBackSection{
+        margin-top: 50px;
+    }
+    .feedBackSection .row{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .feedBackSection h2{
+        font-weight: 300;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .feedBackSection .sideImage img{
+        width: 70px;
+        height: auto;
+    }
+    .feedBackSection .sideImage p{
+        width: 100%;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+
+    .feedBackSection .centerImage img{
+        width: 100px;
+        height: auto;
+    }
+
+    .feedBackSection .centerImage p{
+        width: 100%;
+        font-size: 9px;
+        margin: 0 auto;
+    }
+    footer{
+        margin-top: 100px;
+    }
+}
+/* For Desktop */
+@media (min-width: 992px) {
+    main{
+        padding: 40px;
+    }
+    main img{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    main .mainText{
+        margin: auto;
+        text-align: left;
+        padding: 50px;
+    }
+    main h1{
+        font-size: 35px;
+    }
+
+    #firstParap:nth-child(1){
+        font-size: 10px;
+        letter-spacing: 13px;
+    }
+
+    #ndParap{
+        font-size: 80%;
+        width: 100%;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+
+    /* Our Product Section */
+
+    .moreProduct h1{
+        letter-spacing: 6px;
+        font-size: 50px;
+    }
+    #trdParap{
+        font-size: 18px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .moreProduct a{
+        font-size: 12px;
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .moreProduct img{
+        width: 60%;
+        height: auto;
+    }
+
+    /* Parallax Section */
+    .parallaxSection{
+        height: 50vh;
+    }
+
+    .coverEffect{
+        padding: 50px;
+    }
+
+    .parallaxSection h3{
+        font-family: "Exo Black";
+        letter-spacing: 3px;
+        font-size: 55px;
+        margin-top:50px;
+    }
+    .parallaxSection p{
+        font-family: "Exo Medium";
+        letter-spacing: 5px;
+        font-size: 12px;
+    }
+    /* About Us */
+    
+    .aboutUs .imgSize{
+        margin: auto;
+        width: 80%;
+        height: 300px;
+        opacity: 0.9;
+    }
+    .aboutUsIsi{
+        width: 50%;
+        height: auto;
+        margin:0 auto;
+        position: relative;
+        top: -100px;
+        padding: 20px;
+    }
+    .aboutUsIsi img{
+        width: 100%;
+    }
+    .aboutUsIsi h4{
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .aboutUsIsi p{
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+    }
+    /* Costumer's Feedback Section */
+    .feedBackSection{
+        margin-top: 100px;
+    }
+    .feedBackSection .row{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .feedBackSection h2{
+        font-weight: 300;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .feedBackSection .sideImage img{
+        width: 70px;
+        height: auto;
+    }
+    .feedBackSection .sideImage p{
+        width: 50%;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+
+    .feedBackSection .centerImage img{
+        width: 100px;
+        height: auto;
+    }
+
+    .feedBackSection .centerImage p{
+        width: 50%;
+        font-size: 9px;
+        margin: 0 auto;
+    }
+    footer{
+        margin-top: 200px;
+    }
+}
